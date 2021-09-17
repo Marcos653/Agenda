@@ -12,9 +12,10 @@ package agend;
 public class Pessoa {
     private String nome;
     private String sobrenome;
-    private int telefone;
-  
+    private String telefone;
 
+
+    
     public String getNome() {
         return nome;
     }
@@ -31,13 +32,15 @@ public class Pessoa {
         this.sobrenome = sobrenome;
     }
 
-    public int getTelefone() {
+    public String getTelefone() {
         return telefone;
     }
 
-    public void setTelefone(int telefone) {
+    public void setTelefone(String telefone) {
         this.telefone = telefone;
     }
-    
-    
+
+
+
+
 }
