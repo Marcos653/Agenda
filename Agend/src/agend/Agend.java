@@ -65,7 +65,7 @@ public class Agend {
           System.out.println("Opção inválida!");
           break;
       }
-    } while (opcao != 0 && funcionarioMax <= funcionarioDesejados);
+    } while (opcao != 0);
 
     sc.close();        
         
